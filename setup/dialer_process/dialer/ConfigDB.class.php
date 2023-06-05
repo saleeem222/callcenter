@@ -53,7 +53,7 @@ class ConfigDB
 			'asthost'	=>	array(
 				'descripcion'	=>	'host de Asterisk Manager',
 				'regex'			=>	NULL,
-				'valor_omision'	=>	'127.0.0.1',
+				'valor_omision'	=>	'192.168.1.200',
 				'valor_viejo'	=>	NULL,
 				'valor_actual'	=>	NULL,
 				'mostrar_valor'	=>	TRUE,
@@ -223,10 +223,10 @@ class ConfigDB
 		}
 
     	// Caso especial: obtener valores de usuario/clave AMI
-        if ((	$this->_infoConfig['asterisk']['asthost']['valor_actual'] == '127.0.0.1' || 
-        		$this->_infoConfig['asterisk']['asthost']['valor_actual'] == 'localhost') &&
-            $this->_infoConfig['asterisk']['astuser']['valor_actual'] == '' && 
-            $this->_infoConfig['asterisk']['astpass']['valor_actual'] == '') {
+        if ((	$this->_infoConfig['asterisk']['asthost']['valor_actual'] == '192.168.1.200' || 
+        		$this->_infoConfig['asterisk']['asthost']['valor_actual'] == '192.168.1.200') &&
+            $this->_infoConfig['asterisk']['astuser']['valor_actual'] == 'pirread' && 
+            $this->_infoConfig['asterisk']['astpass']['valor_actual'] == 'gfh325gm') {
 
             // Base de datos no tiene usuario explícito, se lee de manager.conf
             if ($this->_fuenteCredAst != ASTCONN_CRED_CONF)
