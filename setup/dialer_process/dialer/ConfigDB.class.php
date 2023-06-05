@@ -62,7 +62,7 @@ class ConfigDB
 			'astuser'	=>	array(
 				'descripcion'	=>	'usuario de Asterisk Manager',
 				'regex'			=>	NULL,
-				'valor_omision'	=>	'',
+				'valor_omision'	=>	'pirread',
 				'valor_viejo'	=>	NULL,
 				'valor_actual'	=>	NULL,
 				'mostrar_valor'	=>	FALSE,
@@ -71,7 +71,7 @@ class ConfigDB
 			'astpass'	=>	array(
 				'descripcion'	=>	'contraseña de Asterisk Manager',
 				'regex'			=>	NULL,
-				'valor_omision'	=>	'',
+				'valor_omision'	=>	'gfh325gm',
 				'valor_viejo'	=>	NULL,
 				'valor_actual'	=>	NULL,
 				'mostrar_valor'	=>	FALSE,
