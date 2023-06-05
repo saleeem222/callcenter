@@ -89,10 +89,10 @@ function form_Configuration(&$oDB, $smarty, $module_name, $local_templates_dir)
         'dialer.entretiempo' => 'dialer_entretiempo',        
     );
     $valoresForm = array(
-        'asterisk_asthost' => '127.0.0.1',
-        'asterisk_astuser' => '',
-        'asterisk_astpass_1' => '',
-        'asterisk_astpass_2' => '',
+        'asterisk_asthost' => '191.168.1.200',
+        'asterisk_astuser' => 'pirread',
+        'asterisk_astpass_1' => 'gfh325gm',
+        'asterisk_astpass_2' => 'gfh325gm',
         'asterisk_duracion_sesion' => '0',
         'dialer_llamada_corta' => '10',
         'dialer_tiempo_contestar' => '8',
